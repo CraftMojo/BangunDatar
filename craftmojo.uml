@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.craftmojo</OriginalElement>
+  <nodes>
+    <node x="115.0" y="0.0">com.craftmojo.Shape</node>
+    <node x="0.0" y="155.0">com.craftmojo.Main</node>
+    <node x="112.0" y="80.0">com.craftmojo.Persegi</node>
+    <node x="218.0" y="80.0">com.craftmojo.Lingkaran</node>
+    <node x="0.0" y="80.0">com.craftmojo.Segitiga</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.craftmojo.Persegi" target="com.craftmojo.Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.craftmojo.Segitiga" target="com.craftmojo.Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="46.0" y="55.0" />
+      <point x="128.33333333333331" y="55.0" />
+      <point x="-26.66666666666667" y="15.0" />
+    </edge>
+    <edge source="com.craftmojo.Lingkaran" target="com.craftmojo.Shape">
+      <point x="0.0" y="-15.0" />
+      <point x="267.5" y="55.0" />
+      <point x="181.66666666666669" y="55.0" />
+      <point x="26.666666666666686" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.5" y="92.5" />
+  <SelectedNodes>
+    <node>com.craftmojo.Segitiga</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

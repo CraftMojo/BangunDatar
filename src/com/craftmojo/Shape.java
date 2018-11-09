@@ -1,8 +1,10 @@
 package com.craftmojo;
 
-public interface Shape {
-    String tipeBangun = null;
+import java.util.Scanner;
 
-    // method hitung luas
+public interface Shape {
+    Scanner scan = new Scanner(System.in);
+
     Double hitungLuas();
+    void getInput();
 }
