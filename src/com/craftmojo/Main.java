@@ -39,7 +39,6 @@ public class Main {
                 System.out.println("Good Bye!");
                 ulang = false;
                 continue;
-
             }
 
             if (pilih > bangunDatar.size()) {
