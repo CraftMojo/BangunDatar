@@ -2,8 +2,6 @@ import com.craftmojo.Segitiga;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class SegitigaTest {
     @Test
     public void hitungLuas() {
