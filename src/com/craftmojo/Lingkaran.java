@@ -15,5 +15,7 @@ public class Lingkaran implements Shape {
         r = scan.nextDouble();
 
         //test all cases test
+
+        //nambah
     }
 }
