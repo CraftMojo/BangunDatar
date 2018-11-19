@@ -14,6 +14,6 @@ public class Lingkaran implements Shape {
         System.out.print("Masukkan jari-jari: ");
         r = scan.nextDouble();
 
-        //test all cases
+        //test all cases test
     }
 }
