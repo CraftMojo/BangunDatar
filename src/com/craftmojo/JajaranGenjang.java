@@ -1,8 +1,6 @@
 package com.craftmojo;
 
-import org.omg.CORBA.Object;
-
-public class Lingkaran implements Shape {
+public class JajaranGenjang implements Shape {
     private double r;
     private static final double phi = 3.14;
 
@@ -17,8 +15,6 @@ public class Lingkaran implements Shape {
         System.out.print("Masukkan jari-jari: ");
         r = scan.nextDouble();
 
-        //test all cases test
-
-        //nambah
     }
 }
+

@@ -5,6 +5,7 @@ public class Persegi implements Shape{
 
     @Override
     public Double hitungLuas() {
+
         return sisi * sisi;
     }
 
