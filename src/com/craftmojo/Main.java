@@ -1,7 +1,10 @@
 package com.craftmojo;
 
+import org.omg.CORBA.Object;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -15,6 +18,7 @@ public class Main {
             System.out.println(i++ + ". " + aBangunDatar.getClass().getSimpleName());
         }
         System.out.print("Masukkan pilihan: ");
+
     }
 
     private static List<Shape> getShapes() {
@@ -23,10 +27,13 @@ public class Main {
         bangunDatar.add(new Lingkaran());
         bangunDatar.add(new Segitiga());
         bangunDatar.add(new PersegiPanjang());
+        bangunDatar.add(new JajaranGenjang());
         return bangunDatar;
+
+
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] test) {
         List<Shape> bangunDatar = getShapes();
 
         boolean ulang = true;
