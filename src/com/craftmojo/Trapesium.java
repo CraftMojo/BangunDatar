@@ -1,6 +1,6 @@
 package com.craftmojo;
 
-public class Trapesium extends BangunDatar{
+public class Trapesium {
     private double alas;
     private double tinggi;
 

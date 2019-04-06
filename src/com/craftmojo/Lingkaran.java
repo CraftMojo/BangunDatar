@@ -6,6 +6,10 @@ public class Lingkaran implements Shape {
     private double r;
     private static final double phi = 3.14;
 
+    Lingkaran(){
+
+    }
+
     @Override
     public Double hitungLuas() {
 

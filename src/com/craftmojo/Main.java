@@ -1,10 +1,7 @@
 package com.craftmojo;
 
-import org.omg.CORBA.Object;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -59,7 +56,6 @@ public class Main {
             System.out.println("Luas Bangun " + bangun.getClass().getSimpleName()
                     + ":" + bangun.hitungLuas());
             System.out.println();
-
         }
     }
 
